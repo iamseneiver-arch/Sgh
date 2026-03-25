@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: black;
+  font-family: Arial;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  z-index: 10;
+  font-size: 2.5rem;
+}
+
+.spacer {
+  height: 300vh;
+}
